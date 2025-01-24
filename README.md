@@ -136,19 +136,22 @@ Authorization: Bearer <session_token>
    git clone <repository_url>
    cd <repository_directory>
    ```
-2. Install [Node.js](https://nodejs.org/en/download).
-3. Install the dependencies.
+2. Install [Node.js](https://nodejs.org/en/download). 
+
+3. Install [MongoDB](https://www.mongodb.com/docs/manual/installation/).
+
+4. Install the dependencies.
    ```bash
    npm install
    ```
-4. Create a .env file in the root directory and add a [JWT token](https://dev.to/tkirwa/generate-a-random-jwt-secret-key-39j4).
+5. Create a .env file in the root directory and add a [JWT token](https://dev.to/tkirwa/generate-a-random-jwt-secret-key-39j4).
    
    
-4. Run the application:
+6. Run the application:
    ```bash
    node server.js
    ```
-5. Use an API client (e.g., Postman, curl) to test the endpoints.
+7. Use an API client (e.g., Postman, curl) to test the endpoints.
 
 ---
 
