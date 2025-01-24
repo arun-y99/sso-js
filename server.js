@@ -10,7 +10,7 @@ require('dotenv').config();
 const app = express();
 app.use(bodyParser.json());
 
-// Initialize JWT_SECRET
+// Initialize JWT_SECRET - Do not hardcode
 const JWT_SECRET = process.env.JWT_SECRET;
 
 // Mock database
