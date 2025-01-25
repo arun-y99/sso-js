@@ -85,8 +85,8 @@ Authenticates a user and provides a session token if the username and password a
 - **200 OK**
   ```json
   {
-    "message": "Login successful",
-    "session_token": "unique_session_token"
+    "message": "Authentication successful",
+    "token": "unique_session_token"
   }
   ```
 - **401 Unauthorized**
@@ -117,13 +117,13 @@ Authorization: Bearer <session_token>
 - **200 OK**
   ```json
   {
-    "message": "Session token is valid"
+    "message": "Valid Token"
   }
   ```
 - **401 Unauthorized**
   ```json
   {
-    "error": "Invalid or expired session token"
+    "error": "Invalid token"
   }
   ```
 
